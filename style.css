@@ -1,0 +1,122 @@
+.mainpic{
+    background-image : url(https://app.studi.fr/v3/assets/images/tenants/studi/bg.jpg);
+   position: fixed;
+   top: 0;
+   left: 0;
+   width: 100%;
+   height: 100%;
+   background-size:cover;
+}
+
+/*BLOC BLANC*/
+.bloccenter{
+    margin-top: 65px;
+    padding-top: 30px;
+    padding-bottom: 30px ;
+    max-width: 400px !important;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: grey;
+    background-color: white;
+    border-radius: 10px;
+}
+.blocmail{
+    width: 95%;
+}
+input{
+    border-top: none;
+    border-right: none;
+    border-left: none;
+    width: 95%;
+}
+#motdepasse{
+    padding-top: 30px;
+}
+
+.logo{
+  padding-bottom: 25px;
+  width: 80%;  
+}
+
+/*REGISTER*/
+
+.connexion{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.connexion a{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-decoration: none;
+    color: #74C4D0;
+}
+
+.btnconnexion{
+    background-color: #FFB527;
+    border-radius: 5px;
+    border-color: #FFB527;
+    margin-top: 15px;
+    justify-content: center;
+    display: flex;
+    max-width: 50%;
+    font-weight: bold;
+}
+
+
+
+/*BAS DE PAGE*/
+
+
+.logosga img{
+   padding-top: 20px;
+   cursor: pointer;
+}
+
+
+.bottomtext{
+    flex-direction: column;
+    align-items: center;
+    text-align: center ;
+}
+
+.bottomtext li img{
+    width: 10%;
+}
+
+.bottomtext li{
+    color: white;
+    list-style-type:none;
+    font-size: 12px;
+}
+
+/*SIGNALEMENT*/
+
+.signalement{
+    display: flex!important;
+    justify-content: flex-end;
+}
+.buttonsigal{
+    background-color: #FFB527;
+    border-radius: 5px;
+    border-color: #FFB527;
+}
+
+a.textsignal:link{
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.buttonsigal a {
+    color: black;
+}
+
+
+
+
+
+
+

@@ -1,0 +1,148 @@
+p{
+    font-size: 13px;
+}
+
+
+
+header{
+    display:flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 100%;
+    padding: 15px 15px 15px;
+    box-shadow: 0 3px 5px -1px #0003, 0 6px 10px #00000024, 0 1px 18px #0000001f;
+}
+
+.logo{
+    width: 10%;
+}
+
+
+#pourcentage{
+    background-color: #59B9C7;
+    border-radius: 5px;
+    padding: 8px;
+    font-weight: bold;
+    font-size: 15px;
+}
+
+
+  /*1ère colonne 
+  BUTTON*/
+.buttonplayall{
+    padding-right: 5px;
+    padding-top: 5px;
+}
+.buttonplay{
+    background-color: #2A4061;
+    border-radius: 50%;
+    border: 2px solid white;
+    float: right;
+  }
+
+  .bi-chevron-left{
+    color: white;
+}
+
+#firstcolumn.reduce .buttonplay{
+    rotate: 180deg;
+}
+
+/*FIRST COLUMN*/
+
+#firstcolumn{
+    background-color: #2A4061;
+    color: white;
+    /*display: flex;
+    flex-direction: column;
+    */
+    display: inline-block;
+    align-items: center;
+    height:100vh;
+    overflow-y: scroll;
+    scroll-snap-type: y mandatory;
+    transition: 0.5s;
+}
+
+#firstcolumn.expand{
+    width: 300px;
+}
+
+#Yellow.active{
+    background-color: #FFB527;
+}
+
+#firstcolumn.reduce{
+    width: 200px;
+}
+
+#firstcolumn.reduce .shownone{
+    display: none;
+}
+
+
+.firstcolumnprofil{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;   
+}
+
+
+
+.profilpicture{
+    justify-content: center;
+    border-radius: 10px;
+    width: 30%;
+    padding-top: 15px
+}
+
+
+.allList{
+    cursor: pointer;
+}
+
+.linkFormation{
+    text-decoration-color: white;
+    color: white;
+    }
+
+    .List{
+        display: flex;
+        padding-left: 50px;
+        width: 100%;
+        background-color: #2A4061;
+        color: white;
+        border: #2A4061;
+
+    }
+
+
+#titleList{
+    margin-left:30px;
+    font-size: 13px;
+    padding-top: 8px;
+}
+
+
+
+.secondcolumn{
+    background-color: #E9EAED;
+}
+
+.thirdcolumn{
+    background-color: #E9EAED;  
+}
+
+footer{
+    display: flex;
+    font-weight: bold;
+    justify-content: space-around
+}
+
+.linkFooter{
+    text-decoration: none;
+    color: black;
+    font-size: 13px;
+    padding-top: 10px;
+    }
