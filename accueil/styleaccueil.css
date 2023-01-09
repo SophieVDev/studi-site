@@ -128,10 +128,27 @@ header{
 
 .secondcolumn{
     background-color: #E9EAED;
+    display: inline-block;
+    align-items: center;
+    width: 600px;
+    margin-left: -5px;
+    margin-top: 200px;
 }
+
+
 
 .thirdcolumn{
     background-color: #E9EAED;  
+    display: inline-block;
+    width: 430px;
+    margin-top: 200px;
+}
+
+
+.picparrainage{
+    width: 430px;
+
+
 }
 
 footer{
