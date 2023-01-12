@@ -1,3 +1,8 @@
+html {
+    width: 100%;
+    height: 100%;
+}
+
 p{
     font-size: 13px;
 }
@@ -48,16 +53,16 @@ header{
     rotate: 180deg;
 }
 
+main {
+    display: grid;
+    grid-template-columns: 20% 50% 30%;
+}
+
 /*FIRST COLUMN*/
 
 #firstcolumn{
     background-color: #2A4061;
     color: white;
-    /*display: flex;
-    flex-direction: column;
-    */
-    display: inline-block;
-    align-items: center;
     height:100vh;
     overflow-y: scroll;
     scroll-snap-type: y mandatory;
@@ -128,20 +133,17 @@ header{
 
 .secondcolumn{
     background-color: #E9EAED;
-    display: inline-block;
+    /*display: inline-block;
     align-items: center;
     width: 600px;
     margin-left: -5px;
-    margin-top: 200px;
+    margin-top: 200px;*/
 }
 
 
 
 .thirdcolumn{
     background-color: #E9EAED;  
-    display: inline-block;
-    width: 430px;
-    margin-top: 200px;
 }
 
 
