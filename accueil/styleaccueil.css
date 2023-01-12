@@ -5,9 +5,15 @@ html {
 
 p{
     font-size: 13px;
+    font-weight: bold;
 }
 
-
+h3{
+background-color:  #F5F5F5; 
+display: flex;
+    align-items: center;
+    justify-content: center;
+}
 
 header{
     display:flex;
@@ -133,11 +139,19 @@ main {
 
 .secondcolumn{
     background-color: #E9EAED;
-    /*display: inline-block;
-    align-items: center;
-    width: 600px;
-    margin-left: -5px;
-    margin-top: 200px;*/
+}
+
+.Titlesecondcolumn{
+    background-color: #F5F5F5 ;
+}
+
+menu {
+    list-style-type: none;
+}
+.icon{
+    height: 70px;
+    width: 70px;
+    border-radius: 50%;
 }
 
 
@@ -148,7 +162,7 @@ main {
 
 
 .picparrainage{
-    width: 430px;
+    width: 260px;
 
 
 }

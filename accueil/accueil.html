@@ -111,39 +111,45 @@
         </div>
 
 
-                <div class="secondcolumn">
+                <div class="secondcolumn border border-secondary p-2 m-3">
                 <!--Deuxième bloc au centre-->
                     <div class="blocsecondelement">    
                         <div>
                         <!--Div accueil/fil d'actualité-->
-                            <h1>Accueil / Fil d'actualité</h1>
+                            <h1 class="Titlesecondcolumn">Accueil / Fil d'actualité</h1>
                         </div>   
                             <div>
                             <!--tous les éléments du deuxième bloc au centre-->
                                 <div>
                                 <!--Mon menu avec les onglets-->
-                                    <menu>
-                                        <li><button>Mon Fil</button></li> 
-                                        <li><button>Offciels</button></li> 
-                                        <li><button>Epinglés</button></li> 
-                                        <li><button>Mes messages</button></li>
+                                    <menu class="d-flex justify-content-between">
+                                        <li><button class="btn btn-light">Mon Fil</button></li> 
+                                        <li><button class="btn btn-light">Offciels</button></li> 
+                                        <li><button class="btn btn-light">Epinglés</button></li> 
+                                        <li><button class="btn btn-light">Mes messages</button></li>
                                     </menu>
-                                        <div>
-                                            <p>Exprimez-vous auprès de votre promo</p>
-                                                <textarea type="text" placeholder="Ecrivez un message et ajouter des tags"></textarea>
-                                                <button>Attacher des images</button>
-                                                <button>Publier</button>
+                                        <div class="border border-secondary p-2 m-3">
+                                            <p class="font-weight-bold">Exprimez-vous auprès de votre promo</p>
+                                                <textarea class="w-100" type="text" placeholder="Ecrivez un message et ajouter des tags"></textarea>
+                                                <div class="d-flex justify-content-between">
+                                                    <button type="button" class="btn btn-success">Attacher des images/fichiers</button>
+                                                    <button type="button" class="btn btn-success">Publier</button>
+                                                </div>
                                         </div>
                                 </div>
-                                    <div>
+                                    <div class="border border-secondary p-2 m-3">
                                     <!--Posts/articles-->
-                                        <article>
-                                            <i class="bi bi-person-circle"></i>
+                                        <article class="d-flex flex-column">
+                                            <img class="icon img-thumbnail" src="https://ressources.studi.fr/stockage/files/app.studi.fr/7d4a456de1f26f7e5b59580791a467ebc5a5e730.png" alt="icon">
+                                
                                             <h2>Alexis ENGELARE</h2>
                                             <p>Il y a 2 heures</p>
                                             <div>
                                                 <p>La séance HTML/CSS est en cours</p>
-                                                <button>Visiter le lien sur app.studi.fr</button>
+                                                <div class="d-flex justify-content-between">
+                                                    <button class="btn btn-success">Visiter le lien sur app.studi.fr</button>
+                                                </div>
+                                                
                                             </div>   
                                         </article>
 
@@ -152,11 +158,11 @@
                                                             <div>
                                                             <!--Mon profil pour répondre-->
                                                                 <i class="bi bi-person-circle"></i> 
-                                                                <textarea type="text" placeholder="Selectionner uen promotionEcrire un commentaire"></textarea>
+                                                                <textarea class="w-100" type="text" placeholder="Selectionner uen promotionEcrire un commentaire"></textarea>
                                                             </div>
-                                                                <div>
-                                                                    <button>Attacher une  image</button>
-                                                                    <button>Commenter</button>
+                                                                <div class="d-flex justify-content-between">
+                                                                    <button class="btn btn-success">Attacher une  image</button>
+                                                                    <button class="btn btn-success">Commenter</button>
                                                                 </div>
                                                             </div>
                                                         </div>
@@ -167,20 +173,21 @@
             </div>
 
         <!--bloc droit-->
-        <div class="thirdcolumn">
+        <div class="thirdcolumn border border-secondary p-2 m-3">
             <!--filtre actualité-->
-            <i class="bi bi-funnel-fill"></i>
-            <h2>Je filtre mes actualités</h2>
+            <i class=" d-flex bi bi-funnel-fill"></i>
+            <h3>Je filtre mes actualités</h3>
             <input type = "text" value="Sélectionnez un ou plusieurs tags"
-
+<div class="border border-secondary p-2 m-3">
             <!--Evenement-->
             <i class="bi bi-calendar-check-fill"></i>
-            <h2>Evenements à venir</h2>
+            <h3>Evenements à venir</h3>
             <p>Aujourd'hui</p>
             <p>DESIGN : Application - Conception de la maquette d'une vidéo</p>
             <p>Il y a 12 min de 20:00 à 21:00</p>
             <div class="picparrainage">
                 <img class="picparrainage" src="parrainage.png" alt="parrainage">
+            </div>
             </div>
             
         </div>
